@@ -1,0 +1,10 @@
+<!
+use drk::calls
+let username = GET("username");
+export username asis;
+!>
+<center><h1>hello <! import username !></h1></center>
+<!
+use drk::actions;
+if(user.action == close){export.clear,cache.clear};
+!>
