@@ -22,6 +22,6 @@ In the drks file to make routes add the following
 new routes{
   "/aboutme": "mypage.drk"
 };
-
+```
 you can also add global functions or code to other files with the export method
 
