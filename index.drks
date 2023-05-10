@@ -1,0 +1,11 @@
+//drks files do not work like drk files drks are drk script files and will run just like drk blocks but are not used to display html
+use drk;
+drk.server.routes{
+"/test": "test.drk"
+}
+fn test.drk(){
+println!("this is my webpage for greating users");
+log("hello server console");
+}
+export test.drk as test.drk;
+inject test.drk;
