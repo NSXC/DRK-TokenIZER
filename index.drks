@@ -7,5 +7,5 @@ fn test.drk(){
 println!("this is my webpage for greating users");
 log("hello server console");
 }
-export test.drk as test.drk;
+export test.drk asis;
 inject test.drk;
