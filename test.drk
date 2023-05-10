@@ -1,6 +1,7 @@
 <!
 use drk::calls
-let username = GET("username");
+let custommethods = calls.custom["POST","GET"]
+let username = custommethods("username");
 export username asis;
 !>
 <center><h1>hello <! import username !></h1></center>
