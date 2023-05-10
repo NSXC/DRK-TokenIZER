@@ -5,6 +5,8 @@ let username = custommethods("username");
 export username asis;
 !>
 <center><h1>hello <! import username !></h1></center>
+<center><h2>hello again {|_username_|}</h2></center>
+
 <!
 use drk::actions;
 if(user.action == close){export.clear,cache.clear};
